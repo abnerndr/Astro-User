@@ -1,0 +1,135 @@
+.content {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 11.4rem 1fr;
+
+	grid-template-areas:
+		'header header'
+		'left right';
+}
+
+header {
+	grid-area: header;
+}
+header .logo {
+	position: fixed;
+	padding: 1.4rem 7.9rem;
+}
+
+#bg {
+	position: fixed;
+	grid-area: left;
+	padding: 14.2rem 0;
+}
+
+main {
+	width: 100%;
+	margin: 2rem -10rem;
+	grid-area: right;
+	display: flex;
+	justify-content: center;
+}
+
+.create-wrapp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.create-wrapp .create-title {
+	text-align: center;
+}
+
+.create-wrapp .create-title h2 {
+	color: var(--black);
+	font-size: 2.6rem;
+	font-weight: 700;
+	margin-bottom: 0.2rem;
+}
+
+.create-wrapp .create-title p {
+	color: var(--grey-dark);
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+
+.create-wrapp form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.create-wrapp form input {
+	padding: 1rem 2.6rem;
+	margin-bottom: 2rem;
+	font-size: 1.8rem;
+	border-radius: 0 8px 8px 8px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+}
+
+.buttons .button {
+	padding: 0.7rem 2.2rem;
+	border-radius: 8px;
+	font-size: 1.9rem;
+}
+
+.buttons button {
+	padding: 0.7rem 2.2rem;
+	border-radius: 8px;
+	font-size: 2rem;
+	cursor: pointer;
+	margin-left: 2px;
+	animation: ease-in-out;
+	transition: filter 0.5s;
+	outline: none;
+}
+
+.buttons button:hover,
+.buttons .button:hover {
+	filter: brightness(0.9);
+}
+
+.divisor {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5rem;
+}
+
+.divisor div:nth-child(1),
+.divisor div:nth-child(3) {
+	position: relative;
+	content: '';
+	width: 10rem;
+	height: 2px;
+	background: var(--grey-dark);
+}
+
+.divisor div:nth-child(2) {
+	font-size: 1.78rem;
+	margin: 0 0.5rem;
+	color: var(--grey-dark);
+}
+
+.login-media {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.login-media a img {
+	margin-left: 2rem;
+}
+
+.login-media a img:hover {
+	filter: brightness(0.9);
+}
