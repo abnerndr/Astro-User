@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import './Global.css'
+import '../App.css'
 
 const Acess = () => {
 	return (
@@ -44,10 +47,12 @@ const Acess = () => {
                                     {'Já tem conta '}
                                 </Link>
                             </Router> */}
-
-									<a className="button" href="/">
+									<Link className="button" to="/cad">
 										Criar conta
-									</a>
+									</Link>
+									{/* <a className="button" href="/">
+										Criar conta
+									</a> */}
 								</div>
 
 								<button>Acessar</button>

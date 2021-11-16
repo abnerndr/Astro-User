@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import './Global.css'
+import '../App.css'
 
 import Acess from './Acess'
 
@@ -53,10 +56,12 @@ const Create = () => {
 									{/* <Link to="/Acess" className="button">
 										{'Já tem conta '}
 									</Link> */}
-
-									<a className="button" href="/Acess">
+									<Link className="button" to="/">
+										Já tem conta?
+									</Link>
+									{/* <a className="button" href="/Acess">
 										Já tem conta{' '}
-									</a>
+									</a> */}
 								</div>
 
 								<button>Cria Conta</button>

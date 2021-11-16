@@ -2,6 +2,14 @@
 
 <a href="https://www.figma.com/file/pBDfRolBg24e2Owhi81HHl/Untitled?node-id=2%3A72">Projeto Figma UI/UX</a>
 
+## Página de Acesso
+
+<img src="/.github/Acess.JPG" alt="Acesso page">
+
+## Página de Cadastro
+
+<img src="/.github/create.JPG" alt="Create account">
+
 ## Available Scripts
 
 In the project directory, you can run:
